@@ -1,0 +1,113 @@
+.about-us {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .about {
+  margin-top: 20px;
+  height: 50vh;
+  width: 50%;
+  border-radius: 50px;
+}
+.hero .img{
+  height: 50vh;
+  width: 50%;
+  border-radius: 50px;
+  background-image: url("../../public/images/tech.webp");
+  background-size: cover;
+}
+.company-history {
+  margin-top: 100px;
+  height: 500px;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.company-history h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.company-history p {
+  height: fit-content;
+  width: fit-content;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  align-items: center;
+}
+
+.team-section {
+  margin-top: 50px;
+}
+
+.team-section h3 {
+  font-size: 2rem;
+  margin-bottom: 70px;
+  color: #333;
+}
+
+.team-members {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  
+}
+
+.team-member {
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.team-member p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.4;
+}
